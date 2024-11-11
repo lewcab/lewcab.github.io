@@ -2,6 +2,9 @@ import React from "react";
 import ProjectCard from "./ProjectCard";
 import PastCard from "./PastCard";
 
+import raytracer from "../assets/raytracer.png";
+import wrc from "../assets/wrc.jpg";
+
 const Content = () => {
   return (
     <section className="flex justify-center items-center my-16">
@@ -9,17 +12,17 @@ const Content = () => {
 
         <h1 id="projects" className="w-full text-4xl mb-6 font-bold">Projects</h1>
         <ProjectCard
-          image="src/assets/raytracer.png"
+          image={raytracer}
           title="RAY TRACER"
           description="Python script which takes formatted .txt input and renders a still 3D scene containing spheres and light sources."
           link="https://github.com/lewcab/csc-305"
           width="w-3/5"
         />
         <ProjectCard
-          image="src/assets/wrc.jpg"
+          image={wrc}
           title="EA SPORTS WRC RACER (WIP)"
           description="Machine Learning model to drive a car in EA SPORTS WRC using Python and scikit-learn."
-          link="https://github.com/lewcab/csc-305"
+          link="https://github.com/lewcab/rally_ml"
           width="w-2/5"
         />
 
