@@ -18,7 +18,7 @@ const Content = () => {
         <ProjectCard
           image="src/assets/wrc.jpg"
           title="EA SPORTS WRC RACER (WIP)"
-          description="ProjectCard 1 Description"
+          description="Machine Learning model to drive a car in EA SPORTS WRC using Python and scikit-learn."
           link="https://github.com/lewcab/csc-305"
           width="w-2/5"
         />
