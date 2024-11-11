@@ -6,6 +6,12 @@ export default {
   ],
   theme: {
     extend: {},
+    container: {
+      center: true,
+    },
+    img: {
+      display: "inline"
+    }
   },
   plugins: [],
 }
