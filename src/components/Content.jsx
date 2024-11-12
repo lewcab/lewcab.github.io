@@ -35,18 +35,18 @@ const Content = () => {
 
         <div className="w-full mt-16 flex flex-wrap">
           <PastCard
-            company="SURE GRIP CONTROLS"
-            role="Full-Stack Developer"
-            startDate="Jan. 2023"
-            endDate="Aug. 2023"
-            link="https://suregripcontrols.com/"
-          />
-          <PastCard
             company="INVINITY ENERGY SYSTEMS"
             role="Software Engineering Co-op"
             startDate="Jan. 2024"
             endDate="Apr. 2024"
             link="https://invinity.com/"
+          />
+          <PastCard
+            company="SURE GRIP CONTROLS"
+            role="Full-Stack Developer"
+            startDate="Jan. 2023"
+            endDate="Aug. 2023"
+            link="https://suregripcontrols.com/"
           />
         </div>
 
