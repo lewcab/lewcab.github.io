@@ -15,7 +15,7 @@ const Content = () => {
           image={raytracer}
           title="RAY TRACER"
           description="Python script which takes formatted .txt input and renders a still 3D scene containing spheres and light sources."
-          link="https://github.com/lewcab/csc-305"
+          link="https://github.com/lewcab/raytracer"
           width="w-3/5"
         />
         <ProjectCard
