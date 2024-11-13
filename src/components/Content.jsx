@@ -29,7 +29,7 @@ const Content = () => {
         <div className="w-full mt-16">
           <h1 id="about" className="text-4xl mb-6 font-bold">About Me</h1>
           <p id="monsterrat">
-            I am currently studying Computer Science at the University of Victoria, expecting to graduate some time in 2025. In my free time I enjoy indoor bouldering, playing the guitar, and working on fun projects like building/modifying keyboards. I am always looking for new opportunities to learn and grow as a developer, and am greatly interested in projects involving machine learning and computer vision.
+            I am currently studying Computer Science at the University of Victoria, expecting to graduate in 2025. In my free time I enjoy indoor bouldering, playing the guitar, and working on fun projects like building/modifying keyboards. I am always looking for new opportunities to learn and grow as a developer, and am greatly interested in projects involving machine learning and computer vision.
           </p>
         </div>
 
