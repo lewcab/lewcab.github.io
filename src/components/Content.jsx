@@ -37,22 +37,22 @@ const Content = () => {
           <PastCard
             company="JAMES EVANS & ASSOCIATES"
             role="Jr. Software Developer (Co-op)"
-            startDate="Jan. 2025"
-            endDate="Current"
+            startDate={[2025, 1]}
+            endDate={[2025, 4]}
             link="https://www.jea.ca/"
           />
           <PastCard
             company="INVINITY ENERGY SYSTEMS"
             role="Software Engineering Co-op"
-            startDate="Jan. 2024"
-            endDate="Apr. 2024"
+            startDate={[2024, 1]}
+            endDate={[2024, 4]}
             link="https://invinity.com/"
           />
           <PastCard
             company="SURE GRIP CONTROLS"
             role="Full-Stack Developer"
-            startDate="Jan. 2023"
-            endDate="Aug. 2023"
+            startDate={[2023, 1]}
+            endDate={[2023, 8]}
             link="https://suregripcontrols.com/"
           />
         </div>
