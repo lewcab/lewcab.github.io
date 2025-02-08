@@ -35,6 +35,13 @@ const Content = () => {
 
         <div className="w-full mt-16 flex flex-wrap">
           <PastCard
+            company="JAMES EVANS & ASSOCIATES"
+            role="Jr. Software Developer (Co-op)"
+            startDate="Jan. 2025"
+            endDate="Current"
+            link="https://www.jea.ca/"
+          />
+          <PastCard
             company="INVINITY ENERGY SYSTEMS"
             role="Software Engineering Co-op"
             startDate="Jan. 2024"
