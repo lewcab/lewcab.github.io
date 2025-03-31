@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 import PastCard from "./PastCard";
 
 import raytracer from "../assets/raytracer.png";
-import wrc from "../assets/wrc.jpg";
+import keyboard from "../assets/kb.jpg";
 
 const Content = () => {
   return (
@@ -19,10 +19,10 @@ const Content = () => {
           width="w-3/5"
         />
         <ProjectCard
-          image={wrc}
-          title="EA SPORTS WRC RACER (WIP)"
-          description="Machine Learning model to drive a car in EA SPORTS WRC using Python and scikit-learn."
-          link="https://github.com/lewcab/rally_ml"
+          image={keyboard}
+          title="SPLIT KEYBOARD"
+          description="Split keyboard with LED screen, rotary encoder, and custom 3D printed case."
+          link="https://github.com/lewcab/sofle-v1-case"
           width="w-2/5"
         />
 
@@ -34,6 +34,7 @@ const Content = () => {
         </div>
 
         <div className="w-full mt-16 flex flex-wrap">
+          <h1 id="experience" className="w-full text-4xl mb-6 font-bold">Experience</h1>
           <PastCard
             company="JAMES EVANS & ASSOCIATES"
             role="Jr. Software Developer (Co-op)"

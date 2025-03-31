@@ -14,6 +14,7 @@ const Navbar = () => {
         <div className="space-x-2.5">
           <a id="navitem" href="#projects" className="p-5 py-3 hover:bg-blue-100 active:bg-blue-500">PROJECTS</a>
           <a id="navitem" href="#about" className="p-5 py-3 hover:bg-blue-100 active:bg-blue-500">ABOUT</a>
+          <a id="navitem" href="#experience" className="p-5 py-3 hover:bg-blue-100 active:bg-blue-500">EXPERIENCE</a>
         </div>
       </div>
     </nav>
