@@ -1,17 +1,20 @@
-import Navbar from './components/Navbar.jsx'
-import Hero from './components/Hero.jsx'
-import Content from "./components/Content.jsx";
-import Footer from "./components/Footer.jsx";
+import React, { useState } from 'react';
+import Hero from './components/Hero';
+import Nav from './components/Nav';
+import Content from './components/Content';
 
-function App() {
+import './App.css';
+
+const App = () => {
+  const [selectedItem, setSelectedItem] = useState('Home');
+
   return (
-    <>
-      <Navbar />
-      <Hero />
-      <Content />
-      <Footer />
-    </>
-  )
-}
+    <div className="mx-auto px-4 sm:w-3/5 lg:max-w-screen-xl lg:max-w-[1675px]">
+      <Hero selectedItem={selectedItem} />
+      <Nav setSelectedItem={setSelectedItem} />
+      <Content selectedItem={selectedItem} />
+    </div>
+  );
+};
 
-export default App
+export default App;
