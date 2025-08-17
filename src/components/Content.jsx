@@ -1,5 +1,6 @@
 import React from 'react';
 import {pageInfo} from "./constants.js";
+import './Content.css';
 
 const Content = ({ selectedItem }) => {
 

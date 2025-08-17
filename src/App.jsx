@@ -3,15 +3,17 @@ import Hero from './components/Hero';
 import Nav from './components/Nav';
 import Content from './components/Content';
 
+import { homePage } from './components/constants.js';
+
 import './App.css';
 
 const App = () => {
-  const [selectedItem, setSelectedItem] = useState('Home');
+  const [selectedItem, setSelectedItem] = useState(homePage);
 
   return (
-    <div className="mx-auto px-4 sm:w-3/5 lg:max-w-screen-xl lg:max-w-[1675px]">
+    <div className="app">
       <Hero selectedItem={selectedItem} />
-      <Nav setSelectedItem={setSelectedItem} />
+      <Nav selectedItem={selectedItem} setSelectedItem={setSelectedItem} />
       <Content selectedItem={selectedItem} />
     </div>
   );

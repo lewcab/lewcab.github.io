@@ -1,21 +1,22 @@
 import React from 'react';
-import {pageInfo} from "./constants.js";
+import { pageInfo } from './constants.js';
+import './Nav.css';
 
-const Nav = ({ setSelectedItem }) => {
-  const navItems = Object.keys(pageInfo);
+const Nav = ({ selectedItem, setSelectedItem }) => {
+  const navItems = Object.keys(pageInfo).map((key) => pageInfo[key].title);
 
   return (
-    <nav className="nav">
+    <div className="nav">
       {navItems.map((item) => (
-        <button
-          key={item}
+        <a
+          key={item.title}
           onClick={() => setSelectedItem(item)}
-          className="nav-button"
+          className={`nav-item` + (item === selectedItem ? ' active' : '')}
         >
           {item}
-        </button>
+        </a>
       ))}
-    </nav>
+    </div>
   );
 };
 
