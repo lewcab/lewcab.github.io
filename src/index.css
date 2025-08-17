@@ -2,6 +2,27 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: black;
+  background: #0e090e;
   color: white;
+}
+
+.glow-red {
+  color: transparent;
+  text-shadow: 0 0 1px rgba(255, 0, 0, 0.8),
+  0 0 5px rgba(255, 0, 149, 0.4),
+  0 0 8px rgba(255, 0, 210, 0.3);
+}
+
+.glow-green {
+  color: transparent;
+  text-shadow: 0 0 1px rgba(0, 255, 0, 0.8),
+  0 0 5px rgba(0, 255, 149, 0.4),
+  0 0 8px rgba(0, 255, 210, 0.3);
+}
+
+.glow-blue {
+  color: transparent;
+  text-shadow: 0 0 1px rgba(0, 149, 255, 0.8),
+  0 0 5px rgba(0, 149, 255, 0.4),
+  0 0 8px rgba(0, 210, 255, 0.3);
 }

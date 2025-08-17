@@ -1,16 +1,23 @@
 .nav {
+  padding: 2rem 0 1rem 0;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  color: transparent;
+  text-shadow: 0 0 1px  rgba(255, 255, 255, 0.9),
+               0 0 7px  rgba(255, 255, 255, 0.4),
+               0 0 12px rgba(255, 100, 255, 0.3);
 }
 
 .nav-item {
-  padding: 1rem 0 1rem 0;
+  padding: 4rem 0 3rem 0;
   font-family: "Arial", sans-serif;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: bold;
   transform: scaleY(1.5);
+  text-transform: uppercase;
 }
 
 .nav-item:hover {

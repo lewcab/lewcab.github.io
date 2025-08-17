@@ -1,16 +1,20 @@
+import About from './content/About.jsx';
+import Projects from './content/Projects.jsx';
+import Experience from './content/Experience.jsx';
+
 export const homePage = 'About';
 
 export const pageInfo = {
   About: {
     title: 'About',
-    content: 'Welcome to my portfolio! Feel free to explore.',
+    content: About,
   },
   Projects: {
     title: 'Projects',
-    content: 'Here are some of the projects I have worked on.',
+    content: Projects,
   },
   Experience: {
       title: 'Experience',
-      content: 'Here is my professional experience.',
+      content: Experience,
   },
 }

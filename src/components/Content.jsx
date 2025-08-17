@@ -3,10 +3,11 @@ import {pageInfo} from "./constants.js";
 import './Content.css';
 
 const Content = ({ selectedItem }) => {
+  const ContentComponent = pageInfo[selectedItem].content;
 
   return (
     <div className="content">
-      <p>{pageInfo[selectedItem].content}</p>
+      <ContentComponent/>
     </div>
   );
 };

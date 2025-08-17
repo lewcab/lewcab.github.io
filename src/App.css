@@ -1,8 +1,8 @@
 .app {
-  width: 90vw;
+  width: 85vw;
 }
 
-@media (min-width: 1700px) {
+@media (min-width: 1750px) {
   .app {
     width: 70vw;
   }
