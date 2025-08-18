@@ -6,7 +6,16 @@ import splitKeyboardImage from '../../assets/kb.jpg';
 import predictorImage from '../../assets/lol.png';
 import coraImage from '../../assets/cora.png';
 
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]]; // Swap elements
+  }
+  return array;
+}
+
 const Projects = () => {
+  const colors = shuffleArray(['glow-red', 'glow-green', 'glow-blue']);
   const projects = [
     {
       name: "League of Legends Predictor",
@@ -34,6 +43,10 @@ const Projects = () => {
     },
   ];
 
+  projects.forEach((project, index) => {
+  project.color = colors[index % colors.length];
+  });
+
   return (
     <div className="projects">
       {projects.map((project, index) => (
@@ -42,7 +55,7 @@ const Projects = () => {
             <img src={project.image} alt={project.name} className="project-image" />
           </a>
           <div className="project-details">
-            <h3 className="project-title">{project.name}</h3>
+            <h3 className={`project-title ${project.color}`}>{project.name}</h3>
             <p className="project-description">{project.description}</p>
           </div>
         </div>

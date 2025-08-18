@@ -1,7 +1,16 @@
 import React from 'react';
 import './Experience.css';
 
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]]; // Swap elements
+  }
+  return array;
+}
+
 const Experience = () => {
+  const colors = shuffleArray(['glow-red', 'glow-green', 'glow-blue']);
   const experiences = [
     {
       name: "James Evans & Associates",
@@ -23,6 +32,10 @@ const Experience = () => {
     },
   ];
 
+  experiences.forEach((exp, index) => {
+    exp.color = colors[index % colors.length];
+  });
+
   return (
     <div className="experience">
       {experiences.map((exp, index) => (
@@ -33,7 +46,7 @@ const Experience = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <span className="experience-company">{exp.name}</span>
+            <span className={`experience-company ${exp.color}`}>{exp.name}</span>
             <span className="experience-date">{exp.date}</span>
           </a>
           <div className="experience-details">
