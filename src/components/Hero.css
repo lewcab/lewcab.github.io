@@ -1,0 +1,43 @@
+.hero {
+  padding-top: 2rem;
+  width: 100%;
+
+  color: transparent;
+  text-shadow: 0 0 2px  rgba(255, 255, 255, 0.9),
+               0 0 7px  rgba(255, 255, 255, 0.4),
+               0 0 11px rgba(255, 100, 255, 0.3);
+}
+
+h1 {
+  user-select: none;
+  font-family: "FOT-Matisse Pro EB", serif;
+  transform: scaleY(1.5);
+}
+
+.hero-fn {
+  margin: 0;
+  font-size: 9rem;
+}
+
+.hero-ln {
+  margin: 0;
+  font-size: 13rem;
+}
+
+h2 {
+  text-align: end;
+  user-select: none;
+  font-family: "Arial", serif;
+  transform: scaleY(1.5);
+}
+
+.hero-university {
+  margin: 0 0 1rem 0;
+  font-size: 8rem;
+}
+
+.hero-program {
+  margin: 0 0 1rem 0;
+  font-size: 6rem;
+  padding-bottom: 1rem;
+}

@@ -1,17 +1,24 @@
-import Navbar from './components/Navbar.jsx'
-import Hero from './components/Hero.jsx'
-import Content from "./components/Content.jsx";
-import Footer from "./components/Footer.jsx";
+import React, { useState } from 'react';
+import Hero from './components/Hero';
+import Nav from './components/Nav';
+import Content from './components/Content';
+import Sidebar from './components/Sidebar';
 
-function App() {
+import { homePage } from './components/constants.js';
+
+import './App.css';
+
+const App = () => {
+  const [selectedItem, setSelectedItem] = useState(homePage);
+
   return (
-    <>
-      <Navbar />
-      <Hero />
-      <Content />
-      <Footer />
-    </>
-  )
-}
+    <div className="app">
+      <Sidebar />
+      <Hero selectedItem={selectedItem} />
+      <Nav selectedItem={selectedItem} setSelectedItem={setSelectedItem} />
+      <Content selectedItem={selectedItem} />
+    </div>
+  );
+};
 
-export default App
+export default App;

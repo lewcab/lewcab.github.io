@@ -1,0 +1,27 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 75px;
+  height: 100%;
+  padding: 20px;
+}
+
+.sidebar-image {
+  width: 50px;
+  padding: 10px 0 10px 0;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 15px 0;
+  cursor: pointer;
+}
+
+.sidebar li:hover {
+  text-decoration: underline;
+}
