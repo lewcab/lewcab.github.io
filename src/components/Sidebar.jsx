@@ -17,7 +17,7 @@ const Sidebar = () => {
         className="sidebar-image"
         src={linkedinIcon}
         alt="LinkedIn"
-        onClick={() => window.open('https://www.linkedin.com/in/lewis-cabal-')}
+        onClick={() => window.open('https://www.linkedin.com/in/lewis-cabal')}
       />
     </div>
   );
