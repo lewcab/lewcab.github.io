@@ -16,18 +16,32 @@ const Experience = () => {
       name: "James Evans & Associates",
       position: "Jr. Software Developer (Co-op)",
       date: "Jan. 2025 - Apr. 2025",
+      details: [
+        "Developed client-facing screens based on design and functionality requirements.",
+        "Maintained and developed Java (Spring) endpoints and controllers accessed by the React front-end.",
+        "Adhered to strict coding and security standards when developing new code.",
+      ],
       link: "https://www.jea.ca/",
     },
     {
       name: "Invinity Energy Systems",
       position: "Software Engineering Co-op",
       date: "Jan. 2024 - Apr. 2024",
+      details: [
+        "Built automated Python tools that improved the interfacing and testing experience for next-gen products.",
+        "Developed Python tools to control Keysight loggers enabling automated and cloud-stored data collection.",
+      ],
       link: "https://invinity.com/",
     },
     {
       name: "Sure Grip Controls",
       position: "Full-Stack Developer",
       date: "Jan. 2023 - Aug. 2023",
+      details: [
+        "Developed React applications to automate workflows, enabling visibility of production bottlenecks.",
+        "Created dashboards to track and display metrics for performance and inventory monitoring.",
+        "Communicated technical solutions to audiences with varying levels of technical expertise.",
+      ],
       link: "https://www.baileyintl.com/",
     },
   ];
@@ -49,9 +63,16 @@ const Experience = () => {
             <span className={`experience-company ${exp.color}`}>{exp.name}</span>
             <span className="experience-date">{exp.date}</span>
           </a>
-          <div className="experience-details">
+          <div className="experience-position">
             {exp.position}
           </div>
+          <ul>
+            {exp.details.map((detail, detailIndex) => (
+              <li key={detailIndex} className="experience-details" >
+                {detail}
+              </li>
+            ))}
+          </ul>
         </div>
       ))}
     </div>

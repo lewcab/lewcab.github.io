@@ -28,17 +28,24 @@
 }
 
 .experience-date {
-  font-family: "Arial", sans-serif;
+  font-family: "FOT-Matisse Pro EB", serif;
   margin: 0;
   font-size: 2.5rem;
+  text-transform: lowercase;
+}
+
+.experience-position {
+  font-family: "FOT-Matisse Pro EB", serif;
+  margin: 0;
+  font-size: 2rem;
   text-transform: lowercase;
 }
 
 .experience-details {
   font-family: "Arial", sans-serif;
   margin: 0;
-  font-size: 2rem;
-  text-transform: lowercase;
+  font-size: 1.6rem;
+  line-height: 1.5;
 }
 
 .experience-link {
@@ -60,7 +67,11 @@
     font-size: 1.6rem;
   }
 
-  .experience-details {
+  .experience-position {
     font-size: 1.6rem;
+  }
+
+  .experience-details {
+    font-size: 1.4rem;
   }
 }
