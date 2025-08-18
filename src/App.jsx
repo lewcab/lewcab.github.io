@@ -13,7 +13,7 @@ const App = () => {
 
   return (
     <div className="app">
-      {window.innerWidth >= 500 ? <Sidebar/> : null}
+      <Sidebar/>
       <Hero selectedItem={selectedItem} />
       <Nav selectedItem={selectedItem} setSelectedItem={setSelectedItem} />
       <Content selectedItem={selectedItem} />
