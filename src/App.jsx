@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Hero from './components/Hero';
 import Nav from './components/Nav';
 import Content from './components/Content';
+import Sidebar from './components/Sidebar';
 
 import { homePage } from './components/constants.js';
 
@@ -12,6 +13,7 @@ const App = () => {
 
   return (
     <div className="app">
+      <Sidebar />
       <Hero selectedItem={selectedItem} />
       <Nav selectedItem={selectedItem} setSelectedItem={setSelectedItem} />
       <Content selectedItem={selectedItem} />
