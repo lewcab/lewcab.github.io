@@ -1,7 +1,7 @@
 import React from 'react';
 import './Sidebar.css';
 
-import githubIcon from '../assets/github-mark.svg';
+import githubIcon from '../assets/github.png';
 import linkedinIcon from '../assets/linkedin.png';
 
 const Sidebar = () => {
