@@ -29,6 +29,8 @@
 .project-title {
   margin: 0;
   font-size: 2.8rem;
+  font-family: "Arial", serif;
+  font-weight: bold;
   text-transform: uppercase;
 }
 
@@ -36,4 +38,19 @@
   font-family: "Arial", sans-serif;
   margin: 0.5em 0 0;
   font-size: 2rem;
+}
+
+@media (max-width: 550px) {
+  .project-image {
+    display: none;
+  }
+
+  .project-title {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+
+  .project-description {
+    font-size: 1.5rem;
+  }
 }

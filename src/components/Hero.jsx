@@ -1,8 +1,7 @@
 import React from 'react';
-import {pageInfo} from "./constants.js";
 import './Hero.css';
 
-const Hero = ({ selectedItem }) => {
+const Hero = () => {
 
   return (
     <div className="hero">

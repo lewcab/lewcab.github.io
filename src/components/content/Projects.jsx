@@ -55,7 +55,9 @@ const Projects = () => {
             <img src={project.image} alt={project.name} className="project-image" />
           </a>
           <div className="project-details">
-            <h3 className={`project-title ${project.color}`}>{project.name}</h3>
+            <a href={project.link} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+              <h3 className={`project-title ${project.color}`}>{project.name}</h3>
+            </a>
             <p className="project-description">{project.description}</p>
           </div>
         </div>

@@ -14,7 +14,7 @@
 .nav-item {
   padding: 4rem 0 3rem 0;
   font-family: "Arial", sans-serif;
-  font-size: 3rem;
+  font-size: 1rem;
   font-weight: bold;
   transform: scaleY(1.5);
   text-transform: uppercase;
@@ -27,4 +27,19 @@
 .active {
   text-decoration: underline;
   font-style: italic;
+}
+
+@media (max-width: 550px) {
+  .nav {
+    padding: 2rem 0 2rem 0;
+    text-shadow: 0 0 1px rgba(255, 255, 255, 0.9),
+                 0 0 3px rgba(255, 255, 255, 0.4),
+                 0 0 6px rgba(255, 100, 255, 0.3);
+  }
+
+  .nav-item {
+    padding: 0;
+    font-size: 1.3rem;
+    transform: scaleY(1.2);
+  }
 }

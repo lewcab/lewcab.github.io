@@ -7,3 +7,9 @@
     width: 70vw;
   }
 }
+
+@media (max-width: 550px) {
+  .app {
+    width: 90vw;
+  }
+}

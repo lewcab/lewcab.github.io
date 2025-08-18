@@ -41,3 +41,28 @@ h2 {
   font-size: 6rem;
   padding-bottom: 1rem;
 }
+
+@media (max-width: 550px) {
+  .hero {
+    text-shadow: 0 0 1px rgba(255, 255, 255, 0.9),
+                 0 0 5px rgba(255, 255, 255, 0.4),
+                 0 0 9px rgba(255, 100, 255, 0.3);
+  }
+
+  .hero-fn {
+    font-size: 5rem;
+  }
+
+  .hero-ln {
+    font-size: 6rem;
+  }
+
+  .hero-university {
+    font-size: 3.5rem;
+    margin: 0.5rem 0 0.5rem 0;
+  }
+
+  .hero-program {
+    font-size: 2rem;
+  }
+}
