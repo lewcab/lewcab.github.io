@@ -1,3 +1,28 @@
+@keyframes nav-flicker {
+  0% {
+    text-shadow: 0 0 2px  rgba(255, 255, 255, 0.9),
+    0 0 7px  rgba(255, 255, 255, 0.4),
+    5px 0 11px rgba(255, 0, 0, 0.3);
+  }
+  33% {
+    text-shadow: 0 0 2px  rgba(255, 255, 255, 0.9),
+    0 0 7px  rgba(255, 255, 255, 0.4),
+    5px 0 11px rgba(255, 0, 0, 0.3),
+    -5px 0 11px rgba(0, 0, 255, 0.3);
+  }
+  66% {
+    text-shadow: 0 0 2px  rgba(255, 255, 255, 0.9),
+    0 0 7px  rgba(255, 255, 255, 0.4),
+    -5px 0 11px rgba(0, 0, 255, 0.3);
+  }
+  100% {
+    text-shadow: 0 0 2px  rgba(255, 255, 255, 0.9),
+    0 0 7px  rgba(255, 255, 255, 0.4),
+    5px 0 11px rgba(255, 0, 0, 0.3),
+    -5px 0 11px rgba(0, 0, 255, 0.3);
+  }
+}
+
 .nav {
   padding: 2rem 0 1rem 0;
   width: 100%;
@@ -5,10 +30,8 @@
   justify-content: space-between;
   align-items: center;
 
+  animation: nav-flicker 5s infinite;
   color: transparent;
-  text-shadow: 0 0 1px  rgba(255, 255, 255, 0.9),
-               0 0 7px  rgba(255, 255, 255, 0.4),
-               0 0 12px rgba(255, 100, 255, 0.3);
 }
 
 .nav-item {
@@ -30,11 +53,33 @@
 }
 
 @media (max-width: 550px) {
+  @keyframes nav-flicker {
+    0% {
+      text-shadow: 0 0 1px  rgba(255, 255, 255, 0.9),
+      0 0 7px  rgba(255, 255, 255, 0.4),
+      5px 0 11px rgba(255, 0, 0, 0.3);
+    }
+    33% {
+      text-shadow: 0 0 1px  rgba(255, 255, 255, 0.9),
+      0 0 7px  rgba(255, 255, 255, 0.4),
+      5px 0 11px rgba(255, 0, 0, 0.3),
+      -5px 0 11px rgba(0, 0, 255, 0.3);
+    }
+    66% {
+      text-shadow: 0 0 1px  rgba(255, 255, 255, 0.9),
+      0 0 7px  rgba(255, 255, 255, 0.4),
+      -5px 0 11px rgba(0, 0, 255, 0.3);
+    }
+    100% {
+      text-shadow: 0 0 1px  rgba(255, 255, 255, 0.9),
+      0 0 7px  rgba(255, 255, 255, 0.4),
+      5px 0 11px rgba(255, 0, 0, 0.3),
+      -5px 0 11px rgba(0, 0, 255, 0.3);
+    }
+  }
+
   .nav {
     padding: 2rem 0 2rem 0;
-    text-shadow: 0 0 1px rgba(255, 255, 255, 0.9),
-                 0 0 3px rgba(255, 255, 255, 0.4),
-                 0 0 6px rgba(255, 100, 255, 0.3);
   }
 
   .nav-item {
