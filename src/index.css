@@ -26,3 +26,10 @@ body {
   0 0 5px rgba(0, 149, 255, 0.4),
   0 0 8px rgba(0, 210, 255, 0.3);
 }
+
+.glow-yellow {
+  color: transparent;
+  text-shadow: 0 0 1px rgba(255, 255, 0, 0.8),
+  0 0 5px rgba(255, 255, 149, 0.4),
+  0 0 8px rgba(255, 255, 210, 0.3);
+}
