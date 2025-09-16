@@ -14,12 +14,12 @@ const Experience = () => {
   const experiences = [
     {
       name: "James Evans & Associates",
-      position: "Jr. Software Developer (Co-op)",
+      position: "Jr. Software Developer Co-op",
       date: "Jan. 2025 - Apr. 2025",
       details: [
-        "Developed client-facing screens based on design and functionality requirements.",
-        "Maintained and developed Java (Spring) endpoints and controllers accessed by the React front-end.",
-        "Adhered to strict coding and security standards when developing new code.",
+        "Developed client-facing screens based on design and functionality requirements, adopting new features.",
+        "Maintained Java Spring endpoints/controllers, ensuring reliable data flow between services.",
+        "Delivered production-ready code, reducing vulnerabilities and ensuring compliance with policies.",
       ],
       link: "https://www.jea.ca/",
     },
@@ -28,19 +28,19 @@ const Experience = () => {
       position: "Software Engineering Co-op",
       date: "Jan. 2024 - Apr. 2024",
       details: [
-        "Built automated Python tools that improved the interfacing and testing experience for next-gen products.",
-        "Developed Python tools to control Keysight loggers enabling automated and cloud-stored data collection.",
+        "Built automated Python tools, improving the interfacing and testing experience for next-gen products.",
+        "Developed Python tools to control Keysight loggers, enabling automated and cloud-stored data.",
       ],
       link: "https://invinity.com/",
     },
     {
       name: "Sure Grip Controls",
-      position: "Full-Stack Developer",
+      position: "Full-Stack Developer Co-op",
       date: "Jan. 2023 - Aug. 2023",
       details: [
         "Developed React applications to automate workflows, enabling visibility of production bottlenecks.",
         "Created dashboards to track and display metrics for performance and inventory monitoring.",
-        "Communicated technical solutions to audiences with varying levels of technical expertise.",
+        "Presented technical solutions to both technical and non-technical stakeholders, gaining adoption and feedback.",
       ],
       link: "https://www.baileyintl.com/",
     },
