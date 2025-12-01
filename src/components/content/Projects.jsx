@@ -5,6 +5,7 @@ import rayTracerImage from '../../assets/raytracer.png';
 import splitKeyboardImage from '../../assets/kb.jpg';
 import predictorImage from '../../assets/lol.png';
 import coraImage from '../../assets/cora.png';
+import ddrImage from '../../assets/ddr.png';
 
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
@@ -17,6 +18,12 @@ function shuffleArray(array) {
 const Projects = () => {
   const colors = shuffleArray(['glow-red', 'glow-green', 'glow-blue']);
   const projects = [
+    {
+      name: "Don't Die Revolution",
+      description: "A unique spin on the turn-based combat genre, taking place in a high-fantasy setting. Taking mechanics from rhythm games, perfect your timing to strike your foes down!",
+      link: "https://github.com/Theodore-CA/dont-die-revolution/releases/tag/v0.1.0",
+      image: ddrImage,
+    },
     {
       name: "League of Legends Predictor",
       description: "A collection of machine learning models with the goal of predicting the outcome of League of Legends professional matches. The Genetic algorithm was used to tune the model.",
