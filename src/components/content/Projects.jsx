@@ -6,6 +6,7 @@ import splitKeyboardImage from '../../assets/kb.jpg';
 import predictorImage from '../../assets/lol.png';
 import coraImage from '../../assets/cora.png';
 import ddrImage from '../../assets/ddr.png';
+import bitshoxImage from '../../assets/bitshox.png';
 
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
@@ -18,6 +19,12 @@ function shuffleArray(array) {
 const Projects = () => {
   const colors = shuffleArray(['glow-red', 'glow-green', 'glow-blue']);
   const projects = [
+    {
+      name: "Bit Shox",
+      description: "A physically realistic and widely customizable vehicle simulation package for Unity. Create vehicles from sports cars, family haulers, and trucks!",
+      link: "https://github.com/lewcab/bit-shox",
+      image: bitshoxImage,
+    },
     {
       name: "Don't Die Revolution",
       description: "A unique spin on the turn-based combat genre, taking place in a high-fantasy setting. Taking mechanics from rhythm games, perfect your timing to strike your foes down!",
