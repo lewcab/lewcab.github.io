@@ -18,7 +18,7 @@ const App = () => {
       <Hero selectedItem={selectedItem} />
       <Nav selectedItem={selectedItem} setSelectedItem={setSelectedItem} />
       <Content selectedItem={selectedItem} />
-      <Lyrics/>
+      {/*<Lyrics/>*/}
     </div>
   );
 };

@@ -13,34 +13,35 @@ const Experience = () => {
   const colors = shuffleArray(['glow-red', 'glow-green', 'glow-blue']);
   const experiences = [
     {
-      name: "James Evans & Associates",
-      position: "Jr. Software Developer Co-op",
-      date: "Jan. 2025 - Apr. 2025",
+      company: "James Evans & Associates",
+      position: "Jr. Software Developer (Co-op)",
+      date: "Jan 2025 - Apr 2025",
       details: [
-        "Developed client-facing screens based on design and functionality requirements, adopting new features.",
-        "Maintained Java Spring endpoints/controllers, ensuring reliable data flow between services.",
-        "Delivered production-ready code, reducing vulnerabilities and ensuring compliance with policies.",
+        "Maintained Java (Spring) endpoints/controllers, ensuring reliable data flow between service and application.",
+        "Developed TypeScript (React) screens from design and functionality requirements, quickly adopting new features.",
+        "Delivered production-ready and client-facing code, complying to security and accessibility standards.",
       ],
       link: "https://www.jea.ca/",
     },
     {
-      name: "Invinity Energy Systems",
-      position: "Software Engineering Co-op",
-      date: "Jan. 2024 - Apr. 2024",
+      company: "Invinity Energy Systems",
+      position: "Software Engineer (Co-op)",
+      date: "Jan 2024 - Apr 2024",
       details: [
         "Built automated Python tools, improving the interfacing and testing experience for next-gen products.",
         "Developed Python tools to control Keysight loggers, enabling automated and cloud-stored data.",
+        "Worked closely with large-scale battery systems, adhering to strict safety protocols while developing and testing software.",
       ],
       link: "https://invinity.com/",
     },
     {
-      name: "Sure Grip Controls",
-      position: "Full-Stack Developer Co-op",
-      date: "Jan. 2023 - Aug. 2023",
+      company: "Bailey International",
+      position: "Full-Stack Developer (Co-op)",
+      date: "Jan 2023 - Aug 2023",
       details: [
         "Developed React applications to automate workflows, enabling visibility of production bottlenecks.",
         "Created dashboards to track and display metrics for performance and inventory monitoring.",
-        "Presented technical solutions to both technical and non-technical stakeholders, gaining adoption and feedback.",
+        "Presented technical solutions to both technical and non-technical stakeholders, gaining adoption.",
       ],
       link: "https://www.baileyintl.com/",
     },
@@ -60,11 +61,11 @@ const Experience = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <span className={`experience-company ${exp.color}`}>{exp.name}</span>
+            <span className={`experience-title ${exp.color}`}>{exp.position}</span>
             <span className="experience-date">{exp.date}</span>
           </a>
-          <div className="experience-position">
-            {exp.position}
+          <div className="experience-sub">
+            {exp.company}
           </div>
           <ul>
             {exp.details.map((detail, detailIndex) => (
