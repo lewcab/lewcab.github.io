@@ -54,12 +54,12 @@ h2 {
   transform: scaleY(1.5);
 }
 
-.hero-university {
+.hero-sub1 {
   margin: 0 0 1rem 0;
   font-size: 8rem;
 }
 
-.hero-program {
+.hero-sub2 {
   margin: 0 0 1rem 0;
   font-size: 6rem;
   padding-bottom: 1rem;
@@ -99,12 +99,12 @@ h2 {
     font-size: 6rem;
   }
 
-  .hero-university {
+  .hero-sub1 {
     font-size: 3.5rem;
     margin: 0.5rem 0 0.5rem 0;
   }
 
-  .hero-program {
+  .hero-sub2 {
     font-size: 2rem;
   }
 }
