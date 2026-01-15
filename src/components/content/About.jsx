@@ -6,9 +6,10 @@ const About = () => {
   return (
     <>
       <p className="about">
-        I'm a new-grad software developer based in <span className="glow-blue">British Columbia</span>.
+        I'm a new-grad software developer based in <span className="glow-blue">Victoria</span>, <span className="glow-blue">BC</span>.
         I have 16 months of professional experience building <span className="glow-red">full-stack</span> applications and <span className="glow-green">internal tools</span>.
-        During this time, I primarily developed in <span className="glow-yellow">JavaScript</span>, <span className="glow-yellow">PHP</span>, <span className="glow-yellow">Python</span>, <span className="glow-yellow">TypeScript</span>, and <span className="glow-yellow">Java</span>.
+        During this time, I primarily developed in <span className="glow-yellow">JavaScript</span>, <span className="glow-yellow">PHP</span>, <span className="glow-yellow">Python</span>, <span className="glow-yellow">TypeScript</span>, <span className="glow-yellow">Java</span>, and <span className="glow-yellow">SQL</span>.
+        I also regularly used <span className="glow-yellow">Git</span>, <span className="glow-yellow">Jira</span>, <span className="glow-yellow">Docker</span>, and <span className="glow-yellow">Jenkins</span> to streamline collaboration and development processes.
       </p>
       <p className="about">
         Outside of work, I am learning about <span className="glow-red">game development</span> and <span className="glow-green">machine learning</span> by building small projects in <span className="glow-yellow">Unity</span> and <span className="glow-yellow">C#</span>.
