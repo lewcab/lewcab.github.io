@@ -63,15 +63,15 @@
     flex-direction: column;
   }
 
-  .experience-company {
+  .experience-title {
     font-size: 2rem;
   }
 
   .experience-date {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 
-  .experience-position {
+  .experience-sub {
     font-size: 1.6rem;
   }
 
