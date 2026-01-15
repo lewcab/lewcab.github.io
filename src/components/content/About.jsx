@@ -14,6 +14,7 @@ const About = () => {
       <p className="about">
         Outside of work, I am learning about <span className="glow-red">game development</span> and <span className="glow-green">machine learning</span> by building small projects in <span className="glow-yellow">Unity</span> and <span className="glow-yellow">C#</span>.
         I also enjoy indoor bouldering, playing the guitar, and working on other projects like building and modifying keyboards.
+        Keep up with my latest projects on my <a href="https://github.com/lewcab" target="_blank" className="glow-blue">GitHub</a> profile.
       </p>
       <p className="about">
         If you would like to get in touch, feel free to reach out via email at <a href="mailto:lewcabal@gmail.com?" target="_blank" rel="noopener noreferrer" className="glow-green">lewcabal@gmail.com</a>.
