@@ -33,3 +33,73 @@ body {
   0 0 5px rgba(255, 255, 149, 0.4),
   0 0 8px rgba(255, 255, 210, 0.3);
 }
+
+.glow-purple {
+  color: transparent;
+  text-shadow: 0 0 1px rgba(255, 0, 200, 0.8),
+  0 0 5px rgba(255, 100, 200, 0.4),
+  0 0 8px rgba(255, 100, 200, 0.3);
+}
+
+.glow-0 {
+  color: transparent;
+  text-shadow: 0 0 1px rgba(0, 149, 255, 0.8),
+  0 0 5px rgba(0, 149, 255, 0.4),
+  0 0 8px rgba(0, 210, 255, 0.3);
+}
+
+.glow-1 {
+  color: transparent;
+  text-shadow: 0 0 1px rgba(28, 132, 247, 0.8),
+  0 0 5px rgba(28, 132, 247, 0.4),
+  0 0 8px rgba(28, 132, 247, 0.3);
+}
+
+.glow-2 {
+  color: transparent;
+  text-shadow: 0 0 1px rgba(57, 116, 239, 0.8),
+  0 0 5px rgba(57, 116, 239, 0.4),
+  0 0 8px rgba(57, 116, 239, 0.3);
+}
+
+.glow-3 {
+  color: transparent;
+  text-shadow: 0 0 1px rgba(85, 99, 231, 0.8),
+  0 0 5px rgba(85, 99, 231, 0.4),
+  0 0 8px rgba(85, 99, 231, 0.3);
+}
+
+.glow-4 {
+  color: transparent;
+  text-shadow: 0 0 1px rgba(113, 83, 223, 0.8),
+  0 0 5px rgba(113, 83, 223, 0.4),
+  0 0 8px rgba(113, 83, 223, 0.3);
+}
+
+.glow-5 {
+  color: transparent;
+  text-shadow: 0 0 1px rgba(142, 66, 215, 0.8),
+  0 0 5px rgba(142, 66, 215, 0.4),
+  0 0 8px rgba(142, 66, 215, 0.3);
+}
+
+.glow-6 {
+  color: transparent;
+  text-shadow: 0 0 1px rgba(170, 50, 207, 0.8),
+  0 0 5px rgba(170, 50, 207, 0.4),
+  0 0 8px rgba(170, 50, 207, 0.3);
+}
+
+.glow-7 {
+  color: transparent;
+  text-shadow: 0 0 1px rgba(198, 33, 199, 0.8),
+  0 0 5px rgba(198, 33, 199, 0.4),
+  0 0 8px rgba(198, 33, 199, 0.3);
+}
+
+.glow-8 {
+  color: transparent;
+  text-shadow: 0 0 1px rgba(255, 0, 200, 0.8),
+  0 0 5px rgba(255, 100, 200, 0.4),
+  0 0 8px rgba(255, 100, 200, 0.3);
+}

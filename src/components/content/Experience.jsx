@@ -13,8 +13,19 @@ const Experience = () => {
   const colors = shuffleArray(['glow-red', 'glow-green', 'glow-blue']);
   const experiences = [
     {
+      company: "Eventbase",
+      position: "Junior Backend Engineer",
+      date: "Mar 2026 - Present",
+      details: [
+        "Analyzed 3rd party API documentation and endpoints.",
+        "Collected statistics and data for clients.",
+        "Organized 3rd party applications to integrate with internal projects.",
+      ],
+      link: "https://www.eventbase.com/",
+    },
+    {
       company: "James Evans & Associates",
-      position: "Jr. Software Developer (Co-op)",
+      position: "Junior Software Developer (Co-op)",
       date: "Jan 2025 - Apr 2025",
       details: [
         "Maintained Java (Spring) endpoints/controllers, ensuring reliable data flow between service and application.",
