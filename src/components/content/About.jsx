@@ -7,7 +7,7 @@ const About = () => {
     return (
       <>
         {eventbase.split('').map((char, index) => (
-          <span key={index} className={`glow-${index}`}>{char}</span>
+          <a key={index} className={`glow-${index}`}>{char}</a>
         ))}
       </>
     );
@@ -16,19 +16,20 @@ const About = () => {
   return (
     <>
       <p className="about">
-        I'm a <span className="glow-red">Junior Backend Engineer</span> at <a href="https://www.eventbase.com/" target="_blank">{renderEventbase()}</a> based in <span className="glow-green">Victoria</span>, <span className="glow-green">BC</span>.
-        I recently graduated from <a href="https://www.uvic.ca/" className="glow-blue">UVic</a> with a BSc in <span className="glow-green">Computer Science</span>, where I completed 16 months of co-op experience building <span className="glow-red">full-stack</span> applications and <span className="glow-green">internal tools</span>.
+        I'm a Software Developer based in <a className="glow-green">Victoria</a>, <a className="glow-green">BC</a>.
+        Most recently, I was a <a className="glow-red">Junior Backend Engineer</a> at <a href="https://www.eventbase.com/" target="_blank">{renderEventbase()}</a> building data transformation pipelines in <a className="glow-yellow">PHP</a> and integrating 3rd party services into the mobile app with <a className="glow-yellow">Python</a>.
+        I also recently graduated from <a href="https://www.uvic.ca/" target="_blank" rel="noopener noreferrer" className="glow-blue">UVic</a> with a BSc in <a className="glow-green">Computer Science</a>, completing <a className="glow-blue">16 months of co-ops</a> building full-stack applications and internal tools.
       </p>
       <p className="about">
-        My work has primarily focused on development in <span className="glow-yellow">JavaScript</span>, <span className="glow-yellow">PHP</span>, <span className="glow-yellow">Python</span>, <span className="glow-yellow">TypeScript</span>, <span className="glow-yellow">Java</span>, and <span className="glow-yellow">SQL</span>.
-        I also regularly used <span className="glow-yellow">Git</span>, <span className="glow-yellow">Jira</span>, <span className="glow-yellow">Docker</span>, and <span className="glow-yellow">Jenkins</span> to streamline collaboration and development processes.
+        My professional work has focused on development with <a className="glow-yellow">JavaScript</a>, <a className="glow-yellow">PHP</a>, <a className="glow-yellow">Python</a>, <a className="glow-yellow">TypeScript</a>, <a className="glow-yellow">Java</a>, and <a className="glow-yellow">SQL</a>.
+        I also regularly used <a className="glow-yellow">Git</a>, <a className="glow-yellow">Jira</a>, <a className="glow-yellow">Docker</a>, and <a className="glow-yellow">Jenkins</a> to streamline collaboration and development processes.
       </p>
       <p className="about">
-        Outside of work, I build small projects in <span className="glow-yellow">Unity</span>, <span className="glow-yellow">Python</span>, and <span className="glow-yellow">C++</span> to explore <span className="glow-red">game development</span> and <span className="glow-green">machine learning</span> concepts.
+        Outside of work, I build small projects in <a className="glow-yellow">Unity</a>, <a className="glow-yellow">Python</a>, and <a className="glow-yellow">C++</a> to explore <a className="glow-red">game development</a> and <a className="glow-green">machine learning</a> concepts.
         I also enjoy indoor bouldering, playing the guitar, and working on other projects like building and modifying keyboards.
       </p>
       <p className="about">
-        If you would like to get in touch, feel free to reach out via email at <a href="mailto:lewcabal@gmail.com?" target="_blank" rel="noopener noreferrer" className="glow-green">lewcabal@gmail.com</a>.
+        If you would like to get in touch, feel free to reach out via email at <a href="mailto:lewcabal@gmail.com?" target="_blank" rel="noopener noreferrer" className="glow-green">lewcabal@gmail.com</a> or check out my work on <a href="https://github.com/lewcab" target="_blank" rel="noopener noreferrer" className="glow-blue">GitHub</a> or <a href="https://lewcab.itch.io" target="_blank" rel="noopener noreferrer" className="glow-blue">itch.io</a>.
       </p>
     </>
   );
