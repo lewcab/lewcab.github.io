@@ -15,11 +15,11 @@ const Experience = () => {
     {
       company: "Eventbase",
       position: "Junior Backend Engineer",
-      date: "Mar 2026 - Present",
+      date: "Mar 2026 - Jun 2026",
       details: [
-        "Analyzed 3rd party API documentation and endpoints.",
-        "Collected statistics and data for clients.",
-        "Organized 3rd party applications to integrate with internal projects.",
+        "Built data transformation pipelines in PHP to ingest and map client API data into a standardized schema.",
+        "Developed Python integrations connecting 3rd-party platforms with our app, supporting features including authentication and session registration.",
+        "Queried relational databases using SQL to investigate issues and produce custom analytics for clients and internal teams.",
       ],
       link: "https://www.eventbase.com/",
     },
